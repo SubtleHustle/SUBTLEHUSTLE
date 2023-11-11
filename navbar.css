@@ -24,21 +24,20 @@
 /*-----TOP NAV-----*/
 
 .topnav {
-    display: flex;
-    width: 100%;
-    background: white;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  background: white;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .topnav img {
-    width: 6%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+  width: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
-
 
 .navbar {
   overflow: hidden;
@@ -46,11 +45,10 @@
 }
 
 .navlinks {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .navbar a {
@@ -62,8 +60,7 @@
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 1%;
-  padding-bottom: 1%
-  
+  padding-bottom: 1%;
 }
 
 .navbar a:hover {
@@ -71,10 +68,8 @@
   color: black;
 }
 
-
 @media only screen and (max-width: 1152px) {
-    
-.topnav {
+  .topnav {
     display: flex;
     width: 100%;
     background: white;
@@ -82,52 +77,46 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.topnav img {
+  .topnav img {
     width: 9%;
     padding-top: 1%;
     padding-bottom: 1%;
-}
+  }
 
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navlinks {
+  .navlinks {
     width: 100%;
     display: flex;
     justify-content: center;
     overflow: hidden;
+  }
 
-}
+  .navbar a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
 
-.navbar a {
-  float: none;
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 120%;
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-top: 1%;
-  padding-bottom: 1%
-  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 }
-
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-    
-}
-
 
 @media only screen and (max-width: 390px) {
-    
-.topnav {
+  .topnav {
     display: flex;
     width: 100%;
     background: white;
@@ -135,51 +124,46 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.topnav img {
+  .topnav img {
     width: 20%;
     padding-top: 1%;
     padding-bottom: 1%;
-}
+  }
 
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navlinks {
+  .navlinks {
     width: 100%;
     display: flex;
     justify-content: center;
     overflow: hidden;
+  }
 
-}
+  .navbar a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 90%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
 
-.navbar a {
-  float: none;
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 90%;
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-top: 3%;
-  padding-bottom: 3%
-  
-}
-
-.navbar a:hover {
-  background-color: black;
-  color: black;
-}
-    
+  .navbar a:hover {
+    background-color: black;
+    color: black;
+  }
 }
 
 @media only screen and (max-width: 665px) {
-    
-.topnav {
+  .topnav {
     display: flex;
     width: 100%;
     background: white;
@@ -187,47 +171,44 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.topnav img {
+  .topnav img {
     width: 20%;
     padding-top: 1%;
     padding-bottom: 1%;
-}
+  }
 
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+  }
 
-.navbar {
-  overflow: hidden;
-  background-color: black;
-}
-
-.navlinks {
+  .navlinks {
     width: 100%;
     display: flex;
     justify-content: center;
     overflow: hidden;
-}
+  }
 
-.navbar a {
-  float: none;
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: bold;
-  font-size: 90%;
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  border: 0.5px solid white;
-  
-}
-    
-#nav2 {
-    padding-top: 7%;
-}
-    
-#nav3 {
-    padding-top: 7%;
-} 
+  .navbar a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 90%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 0.5px solid white;
+  }
 
+  #nav2 {
+    padding-top: 7%;
+  }
+
+  #nav3 {
+    padding-top: 7%;
+  }
 }
