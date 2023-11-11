@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -80,7 +81,7 @@ a {
 }
 
 .contact {
-    margin-bottom: %;
+    margin-bottom: 0%;
 }
 #main1 {
   margin-left: 10%;
@@ -186,8 +187,23 @@ h3 {
 }
 
 .instagram-media {
-    margin-left: 10%;
+    margin-left: 3%;
 }
+
+
+.igpostgrid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.post1, post2, post3 {
+    width: 100%;
+}
+
+
 
 @media only screen and (max-width: 2421px) {
     #main1 {
@@ -283,12 +299,20 @@ h3 {
 
 }
 
+.igpostgrid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0%;
+    margin-left: 4%;
 
+}
 
-
-
-
-
+.post1,
+.post2,
+.post3 {
+    width: 100%;
+}
 
 
 @media only screen and (max-width: 1152px) {
@@ -393,7 +417,42 @@ h3 {
 .linktree{
     font-size: 100%;
 }
+    
+.igpostgrid {
+    align-self: center;
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4%;
+    margin-left: 0%;
 }
+    
+.post1,
+.post2,
+.post3 {
+    width: 100%;
+}
+
+    .post3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    
+
+.igpostgrid {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .post3 {
+        display: contents;
+    }
+}
+
 
 @media only screen and (max-width: 665px) {
     
@@ -502,7 +561,9 @@ h3 {
 @media only screen and (max-width: 390px) {
     
     .mainmsg {
-        font-size: 150%
+        font-size: 150%;
+        padding-top: 7%;
+        padding-bottom: 3%;
     }
     
   .mainmsg > div {
@@ -593,12 +654,33 @@ h3 {
 }
     
 .instacontact {
-    font-size: 30%
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+    border: 1px solid black;
+    column-gap: 1px;
 }
-
-
+    
 .linktree{
+    margin-top: 3%;
+    border: 1px solid black;
+    text-align: center;
+    width: 70%;
     font-size: 70%;
 }
+
+.igpostgrid {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+.post1,
+.post2,
+.post3 {
+    width: 100%;
+}
+
 }
   
