@@ -1,5 +1,5 @@
 .footerbody {
-  background: black;
+  background: white;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -10,20 +10,26 @@
 
 .footerbody > img {
   width: 7%;
+  opacity: 50%
 }
 
 h4 {
   text-align: center;
+  color: lightgray;
 }
 
+/*
 img:hover {
-  width: 9%;
+  animation: logogrow 2s infinite;
 }
+*/
 
+/*
 h4:hover {
   background: black;
   color: white;
 }
+*/
 @media only screen and (max-width: 390px) {
   .footerbody > img {
     width: 20%;
