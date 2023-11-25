@@ -37,6 +37,34 @@ a {
   color: black;
 }
 
+#officialMerch {
+    margin-top: 10%;
+}
+.merch {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    object-fit: scale-down;
+    column-gap: 4%
+}
+#buyshirt {
+    text-align: center;
+}
+
+.merch > p {
+    text-align: center;
+}
+#order {
+    text-align: center;
+}
+
+.merch > img {
+    width: 40%;
+}
+#ShirtbannerLogo {
+    width: 98%;
+    margin-top: 24%
+}
 .linktree {
   margin-top: 1%;
   border: 1px solid black;
@@ -45,6 +73,13 @@ a {
   font-size: 150%;
 }
 
+h8 {
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 300%;
+}
 .linktree a {
   color: black;
 }
@@ -150,14 +185,12 @@ a {
 
 h2 {
   font-size: 200%;
-  margin-bottom: 6%;
   text-align: center;
 }
-
-h2:hover {
-  font-size: 250%;
+.courseinfo {
+    text-align: center;
+    font-size: 190%;
 }
-
 .contact {
   display: flex;
   justify-content: center;
@@ -183,6 +216,7 @@ h3 {
 }
 
 .centergrid {
+  border-top: 1px dashed lightgray;
   display: flex;
   justify-content: center;
   width: 100%;

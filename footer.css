@@ -18,18 +18,11 @@ h4 {
   color: lightgray;
 }
 
-/*
-img:hover {
-  animation: logogrow 2s infinite;
-}
-*/
 
-/*
 h4:hover {
   background: black;
   color: white;
 }
-*/
 @media only screen and (max-width: 390px) {
   .footerbody > img {
     width: 20%;
